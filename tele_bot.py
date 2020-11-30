@@ -6,7 +6,7 @@ from telegram import Bot,Update,ReplyKeyboardMarkup
 from utils import get_reply,fetch_news,topics_keyboard
 
 
-TOKEN="1257999919:AAFZqZOh89kIi3wSXDs1b1YO1GDPApyuNIQ"
+TOKEN=API_TOKEN
 
 logging.basicConfig(format='%(asctime)s - %(name)s - %(levelname)s - %(message)s',level=logging.INFO)
 
